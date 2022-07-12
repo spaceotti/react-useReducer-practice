@@ -1,0 +1,35 @@
+body {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  background-color: #333;
+}
+
+input {
+  font-size: 1.2rem;
+  padding: .5em 1em;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+}
+
+input:focus {
+  outline: 1px solid gold;
+  outline-offset: 5px;
+}
+
+.container {
+  height: 200px;
+}
+
+button {
+  font-size: 1.2rem;
+  padding: .5em 1em;
+  margin-right: .5rem;
+  border-radius: 10px;
+}
+
+p {
+  color: #fff;
+  font-size: 2rem;
+}
